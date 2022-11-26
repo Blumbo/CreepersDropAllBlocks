@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "creepersdropall",
+  "version": "${version}",
+  "name": "CreepersDropAllBlocks",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/creepersdropall/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.blumbo.creepersdropall.client.CreepersDropAll"
+    ],
+    "main": [
+      "net.blumbo.creepersdropall.CreepersDropAll"
+    ]
+  },
+  "mixins": [
+    "creepersdropall.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
